@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Send Email</title>
+
+    <link rel="stylesheet" href="{% static 'css.css' %}">
+
+</head>
+<body>
+<div class="contact">
+    <h1>Contact Us</h1>
+<form method="post" action="{% url 'index' %}">
+    {% csrf_token %}
+
+    <input type="text" name="name" placeholder="Title of the email" required>
+    <br>
+    <br>
+     <input type="email" name="email" placeholder="Your email" required>
+    <br>
+    <br>
+    <label>
+        <textarea name="message" placeholder="message to be delivered" required></textarea>
+    </label>
+    <br>
+    <br>
+  <button type="submit" class="btn">Send</button>
+</form>
+      </div>
+</body>
+</html>

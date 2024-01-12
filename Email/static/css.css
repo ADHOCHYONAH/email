@@ -1,0 +1,44 @@
+
+.contact{
+    width: 50%;
+    margin: 5px 10px 330px 330px;
+    background-color: wheat;
+    border-radius: 10px;
+
+}
+h1{
+    padding: 10px;
+    text-align: center;
+    color: #279ed5;
+
+}
+button{
+    width: 60px;
+
+    padding-top: 10px;
+    margin: 50px;
+    background-color: rgba(0, 107, 27, 0.98);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input{
+    width: 80%;
+    height: 2px;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+textarea{
+     width: 80%;
+    height: 20px;
+     margin: 30px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.btn{
+    color: #ffffcc;
+    align-items: center;
+
+}
